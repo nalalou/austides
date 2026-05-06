@@ -30,9 +30,4 @@ export function checkRateLimit(ip: string, res: VercelResponse): boolean {
   return true
 }
 
-setInterval(() => {
-  const now = Date.now()
-  for (const [ip, entry] of windows) {
-    if (now > entry.resetAt) windows.delete(ip)
-  }
-}, WINDOW_MS)
+// Cleanup happens lazily in checkRateLimit — no setInterval needed in serverless
