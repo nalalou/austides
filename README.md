@@ -1,34 +1,46 @@
 # austides
 
-Free, open-source Australian tide prediction API.
-
-No API exists for Australian tide predictions — the Bureau of Meteorology publishes HTML pages only. austides proxies BOM data into clean, developer-friendly JSON.
-
-## Quickstart
+Australian tide predictions as JSON. Proxies [Bureau of Meteorology](https://www.bom.gov.au/australia/tides/) data.
 
 ```bash
-# Get all tide stations
-curl https://austides.vercel.app/v1/stations
-
-# Get tide predictions for Sydney
 curl https://austides.vercel.app/v1/stations/nsw_tp007/tides?date=2026-05-06
 ```
 
-See [docs/quickstart.md](docs/quickstart.md) for more.
+```json
+{
+  "object": "tide_predictions",
+  "station_id": "nsw_tp007",
+  "date": "2026-05-06",
+  "data": [
+    { "time": "2026-05-06T20:09:00Z", "height_m": 0.65, "type": "low" },
+    { "time": "2026-05-07T02:03:00Z", "height_m": 1.25, "type": "high" },
+    { "time": "2026-05-07T07:17:00Z", "height_m": 0.82, "type": "low" },
+    { "time": "2026-05-07T13:56:00Z", "height_m": 1.64, "type": "high" }
+  ],
+  "source": "Bureau of Meteorology, Australian Government"
+}
+```
 
-## API Reference
+No API key. No signup. `Cache-Control` headers included.
 
-### GET /v1/stations
+## Endpoints
 
-Returns all ~112 Australian tide stations with coordinates.
+**`GET /v1/stations`** — all tide stations with lat/lon
 
-### GET /v1/stations/:id/tides?date=YYYY-MM-DD
+**`GET /v1/stations/:id/tides?date=YYYY-MM-DD`** — high/low predictions for a date
 
-Returns high/low tide predictions for a station on a date.
+[Quickstart](docs/quickstart.md) · [Error codes](docs/errors.md)
 
-## Contributing
+## Why
 
-PRs welcome. See the issues tab for things to work on.
+BOM publishes tide predictions as HTML. There's no API. This is that API.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
 
 ## License
 
