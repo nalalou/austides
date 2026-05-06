@@ -1,19 +1,5258 @@
 [
-  { "id": "nsw_tp007", "bom_id": "NSW_TP007", "name": "Sydney (Fort Denison)", "state": "NSW", "latitude": -33.8554, "longitude": 151.2256 },
-  { "id": "nsw_tp001", "bom_id": "NSW_TP001", "name": "Newcastle", "state": "NSW", "latitude": -32.9267, "longitude": 151.7789 },
-  { "id": "nsw_tp009", "bom_id": "NSW_TP009", "name": "Byron Bay", "state": "NSW", "latitude": -28.6474, "longitude": 153.6200 },
-  { "id": "nsw_tp025", "bom_id": "NSW_TP025", "name": "Wollongong", "state": "NSW", "latitude": -34.4190, "longitude": 150.9026 },
-  { "id": "vic_tp014", "bom_id": "VIC_TP014", "name": "Geelong", "state": "VIC", "latitude": -38.1499, "longitude": 144.3605 },
-  { "id": "vic_tp038", "bom_id": "VIC_TP038", "name": "Queenscliff", "state": "VIC", "latitude": -38.2676, "longitude": 144.6614 },
-  { "id": "qld_tp001", "bom_id": "QLD_TP001", "name": "Brisbane Bar", "state": "QLD", "latitude": -27.3653, "longitude": 153.1714 },
-  { "id": "qld_tp016", "bom_id": "QLD_TP016", "name": "Cairns", "state": "QLD", "latitude": -16.9186, "longitude": 145.7781 },
-  { "id": "qld_tp038", "bom_id": "QLD_TP038", "name": "Townsville", "state": "QLD", "latitude": -19.2590, "longitude": 146.7710 },
-  { "id": "sa_tp001", "bom_id": "SA_TP001", "name": "Adelaide (Outer Harbor)", "state": "SA", "latitude": -34.7753, "longitude": 138.4810 },
-  { "id": "sa_tp010", "bom_id": "SA_TP010", "name": "Port Lincoln", "state": "SA", "latitude": -34.7263, "longitude": 135.8580 },
-  { "id": "wa_tp001", "bom_id": "WA_TP001", "name": "Fremantle", "state": "WA", "latitude": -32.0569, "longitude": 115.7481 },
-  { "id": "wa_tp014", "bom_id": "WA_TP014", "name": "Broome", "state": "WA", "latitude": -17.9614, "longitude": 122.2359 },
-  { "id": "wa_tp009", "bom_id": "WA_TP009", "name": "Esperance", "state": "WA", "latitude": -33.8614, "longitude": 121.8930 },
-  { "id": "tas_tp001", "bom_id": "TAS_TP001", "name": "Hobart", "state": "TAS", "latitude": -42.8821, "longitude": 147.3272 },
-  { "id": "tas_tp006", "bom_id": "TAS_TP006", "name": "Burnie", "state": "TAS", "latitude": -41.0486, "longitude": 145.9069 },
-  { "id": "nt_tp001", "bom_id": "NT_TP001", "name": "Darwin", "state": "NT", "latitude": -12.4634, "longitude": 130.8456 }
+  {
+    "id": "nsw_tp001",
+    "bom_id": "NSW_TP001",
+    "name": "Botany Bay",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp002",
+    "bom_id": "NSW_TP002",
+    "name": "Eden",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp003",
+    "bom_id": "NSW_TP003",
+    "name": "Lord Howe Island",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp004",
+    "bom_id": "NSW_TP004",
+    "name": "Newcastle",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp005",
+    "bom_id": "NSW_TP005",
+    "name": "Norfolk Island",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp006",
+    "bom_id": "NSW_TP006",
+    "name": "Port Kembla",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp007",
+    "bom_id": "NSW_TP007",
+    "name": "Sydney (Fort Denison)",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp008",
+    "bom_id": "NSW_TP008",
+    "name": "Yamba",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp009",
+    "bom_id": "NSW_TP009",
+    "name": "Ballina",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp010",
+    "bom_id": "NSW_TP010",
+    "name": "Bermagui",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp011",
+    "bom_id": "NSW_TP011",
+    "name": "Camp Cove",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp012",
+    "bom_id": "NSW_TP012",
+    "name": "Coffs Harbour",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp013",
+    "bom_id": "NSW_TP013",
+    "name": "Evans Head",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp014",
+    "bom_id": "NSW_TP014",
+    "name": "Jervis Bay",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp015",
+    "bom_id": "NSW_TP015",
+    "name": "Port Stephens",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp016",
+    "bom_id": "NSW_TP016",
+    "name": "Brunswick Heads",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp017",
+    "bom_id": "NSW_TP017",
+    "name": "Crowdy Head",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp018",
+    "bom_id": "NSW_TP018",
+    "name": "Forster",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp019",
+    "bom_id": "NSW_TP019",
+    "name": "Harrington Inlet",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp020",
+    "bom_id": "NSW_TP020",
+    "name": "Patonga",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp021",
+    "bom_id": "NSW_TP021",
+    "name": "Port Hacking",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp022",
+    "bom_id": "NSW_TP022",
+    "name": "Princess Jetty (Batemans Bay)",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp023",
+    "bom_id": "NSW_TP023",
+    "name": "South West Rocks",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp024",
+    "bom_id": "NSW_TP024",
+    "name": "Swansea",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp025",
+    "bom_id": "NSW_TP025",
+    "name": "Ulladulla Harbour",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp026",
+    "bom_id": "NSW_TP026",
+    "name": "Port Macquarie",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp027",
+    "bom_id": "NSW_TP027",
+    "name": "Crookhaven Heads",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp028",
+    "bom_id": "NSW_TP028",
+    "name": "Tweed River",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp029",
+    "bom_id": "NSW_TP029",
+    "name": "Kingscliff",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp030",
+    "bom_id": "NSW_TP030",
+    "name": "Moruya",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp031",
+    "bom_id": "NSW_TP031",
+    "name": "Huskisson",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp032",
+    "bom_id": "NSW_TP032",
+    "name": "Sand Point (Pittwater)",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp033",
+    "bom_id": "NSW_TP033",
+    "name": "Ku-Ring-Gai Y.C.",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp034",
+    "bom_id": "NSW_TP034",
+    "name": "Dangar Island",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp035",
+    "bom_id": "NSW_TP035",
+    "name": "Ettalong",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp036",
+    "bom_id": "NSW_TP036",
+    "name": "Gosford",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp037",
+    "bom_id": "NSW_TP037",
+    "name": "Broughton Island",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp038",
+    "bom_id": "NSW_TP038",
+    "name": "Camden Haven",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nsw_tp039",
+    "bom_id": "NSW_TP039",
+    "name": "North West Solitary Island",
+    "state": "NSW",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp001",
+    "bom_id": "NT_TP001",
+    "name": "Darwin",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp002",
+    "bom_id": "NT_TP002",
+    "name": "Melville Bay (Gove Harbour)",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp003",
+    "bom_id": "NT_TP003",
+    "name": "Milner Bay (Groote Eylandt)",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp005",
+    "bom_id": "NT_TP005",
+    "name": "Auster Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp006",
+    "bom_id": "NT_TP006",
+    "name": "Calder Shoal",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp007",
+    "bom_id": "NT_TP007",
+    "name": "Cape Arnhem",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp008",
+    "bom_id": "NT_TP008",
+    "name": "Cape Crocker Offshore",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp009",
+    "bom_id": "NT_TP009",
+    "name": "Cape Ford",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp010",
+    "bom_id": "NT_TP010",
+    "name": "Cape Grey",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp011",
+    "bom_id": "NT_TP011",
+    "name": "Cape Hotham",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp012",
+    "bom_id": "NT_TP012",
+    "name": "Cape Wessel",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp013",
+    "bom_id": "NT_TP013",
+    "name": "Catfish Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp014",
+    "bom_id": "NT_TP014",
+    "name": "Centre Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp015",
+    "bom_id": "NT_TP015",
+    "name": "Cuthbert Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp016",
+    "bom_id": "NT_TP016",
+    "name": "East Field Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp018",
+    "bom_id": "NT_TP018",
+    "name": "Elcho Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp019",
+    "bom_id": "NT_TP019",
+    "name": "Guluwuru Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp020",
+    "bom_id": "NT_TP020",
+    "name": "Hogmany Shoal",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp021",
+    "bom_id": "NT_TP021",
+    "name": "Hutchison River",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp022",
+    "bom_id": "NT_TP022",
+    "name": "Jones Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp023",
+    "bom_id": "NT_TP023",
+    "name": "Lynedoch Bank",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp024",
+    "bom_id": "NT_TP024",
+    "name": "Money Shoal",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp025",
+    "bom_id": "NT_TP025",
+    "name": "North West Crocodile Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp026",
+    "bom_id": "NT_TP026",
+    "name": "Paxie Shoal",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp027",
+    "bom_id": "NT_TP027",
+    "name": "Point Stuart",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp029",
+    "bom_id": "NT_TP029",
+    "name": "Quoin Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp031",
+    "bom_id": "NT_TP031",
+    "name": "The Boxers",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp032",
+    "bom_id": "NT_TP032",
+    "name": "Truant Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp033",
+    "bom_id": "NT_TP033",
+    "name": "Two Hills Bay",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp034",
+    "bom_id": "NT_TP034",
+    "name": "West Alligator Head",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp035",
+    "bom_id": "NT_TP035",
+    "name": "West Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp036",
+    "bom_id": "NT_TP036",
+    "name": "Charles Point Patches",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp037",
+    "bom_id": "NT_TP037",
+    "name": "Loxton Shoal",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp038",
+    "bom_id": "NT_TP038",
+    "name": "Yabooma Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp039",
+    "bom_id": "NT_TP039",
+    "name": "Cape Beatrice",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp040",
+    "bom_id": "NT_TP040",
+    "name": "Cape Don",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp041",
+    "bom_id": "NT_TP041",
+    "name": "Hawk Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp042",
+    "bom_id": "NT_TP042",
+    "name": "Port Keats",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp043",
+    "bom_id": "NT_TP043",
+    "name": "St. Asaph Bay",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp044",
+    "bom_id": "NT_TP044",
+    "name": "Medina Inlet South",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp045",
+    "bom_id": "NT_TP045",
+    "name": "South Barlow Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp046",
+    "bom_id": "NT_TP046",
+    "name": "Unnamed Shoal",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp047",
+    "bom_id": "NT_TP047",
+    "name": "Evans Shoal",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp048",
+    "bom_id": "NT_TP048",
+    "name": "Cape Scott Offshore",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp049",
+    "bom_id": "NT_TP049",
+    "name": "Anson Bay",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp050",
+    "bom_id": "NT_TP050",
+    "name": "Goodrich Bank",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp051",
+    "bom_id": "NT_TP051",
+    "name": "Peron Island North",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp052",
+    "bom_id": "NT_TP052",
+    "name": "Point Jenny",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp053",
+    "bom_id": "NT_TP053",
+    "name": "Native Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp054",
+    "bom_id": "NT_TP054",
+    "name": "Fish Reef",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp055",
+    "bom_id": "NT_TP055",
+    "name": "Tapa Bay",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp056",
+    "bom_id": "NT_TP056",
+    "name": "Point Fawcett (Offshore)",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp057",
+    "bom_id": "NT_TP057",
+    "name": "Burge Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp058",
+    "bom_id": "NT_TP058",
+    "name": "Munkunuwa",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp059",
+    "bom_id": "NT_TP059",
+    "name": "Beagle A",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp060",
+    "bom_id": "NT_TP060",
+    "name": "Parsons Bank",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp061",
+    "bom_id": "NT_TP061",
+    "name": "Fenton Patches",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp062",
+    "bom_id": "NT_TP062",
+    "name": "Hancox Shoal Area",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp063",
+    "bom_id": "NT_TP063",
+    "name": "Nightcliff",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp064",
+    "bom_id": "NT_TP064",
+    "name": "Glyde Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp065",
+    "bom_id": "NT_TP065",
+    "name": "Chambers Bay",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp066",
+    "bom_id": "NT_TP066",
+    "name": "Christine Reef",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp067",
+    "bom_id": "NT_TP067",
+    "name": "Newby Shoal",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp068",
+    "bom_id": "NT_TP068",
+    "name": "Camp Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp069",
+    "bom_id": "NT_TP069",
+    "name": "Cape Van Dieman",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp070",
+    "bom_id": "NT_TP070",
+    "name": "Snake Bay",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp071",
+    "bom_id": "NT_TP071",
+    "name": "Cache Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp072",
+    "bom_id": "NT_TP072",
+    "name": "Point Jahleel (Off)",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp073",
+    "bom_id": "NT_TP073",
+    "name": "Cadell Strait",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp074",
+    "bom_id": "NT_TP074",
+    "name": "Port Essington",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp075",
+    "bom_id": "NT_TP075",
+    "name": "Smith Point - West",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp076",
+    "bom_id": "NT_TP076",
+    "name": "NW Peacock Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp077",
+    "bom_id": "NT_TP077",
+    "name": "North Of Jones Shoal",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp078",
+    "bom_id": "NT_TP078",
+    "name": "Peacock Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp079",
+    "bom_id": "NT_TP079",
+    "name": "Point David",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp080",
+    "bom_id": "NT_TP080",
+    "name": "D'urville Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp081",
+    "bom_id": "NT_TP081",
+    "name": "Arafura Sea",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp082",
+    "bom_id": "NT_TP082",
+    "name": "Copeland Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp083",
+    "bom_id": "NT_TP083",
+    "name": "Cape Cockburn",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp084",
+    "bom_id": "NT_TP084",
+    "name": "One Tree Point",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp085",
+    "bom_id": "NT_TP085",
+    "name": "New Year Island - West",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp086",
+    "bom_id": "NT_TP086",
+    "name": "Grant Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp087",
+    "bom_id": "NT_TP087",
+    "name": "Aurari Bay",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp088",
+    "bom_id": "NT_TP088",
+    "name": "North Goulburn Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp089",
+    "bom_id": "NT_TP089",
+    "name": "Entrance Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp090",
+    "bom_id": "NT_TP090",
+    "name": "Mallison Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp091",
+    "bom_id": "NT_TP091",
+    "name": "Stevens Island",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp092",
+    "bom_id": "NT_TP092",
+    "name": "Hopeful Bay",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "nt_tp093",
+    "bom_id": "NT_TP093",
+    "name": "Two Island Bay",
+    "state": "NT",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp001",
+    "bom_id": "QLD_TP001",
+    "name": "Abbot Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp002",
+    "bom_id": "QLD_TP002",
+    "name": "Bowen",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp003",
+    "bom_id": "QLD_TP003",
+    "name": "Brisbane Bar",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp004",
+    "bom_id": "QLD_TP004",
+    "name": "Bugatti Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp005",
+    "bom_id": "QLD_TP005",
+    "name": "Bundaberg (Burnett Heads)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp006",
+    "bom_id": "QLD_TP006",
+    "name": "Cairns",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp007",
+    "bom_id": "QLD_TP007",
+    "name": "Cape Ferguson",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp008",
+    "bom_id": "QLD_TP008",
+    "name": "Gladstone",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp009",
+    "bom_id": "QLD_TP009",
+    "name": "Gold Coast Operations Base",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp010",
+    "bom_id": "QLD_TP010",
+    "name": "Gold Coast Sand Bypass Jetty",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp011",
+    "bom_id": "QLD_TP011",
+    "name": "Gold Coast Seaway",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp012",
+    "bom_id": "QLD_TP012",
+    "name": "Hay Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp013",
+    "bom_id": "QLD_TP013",
+    "name": "Karumba",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp014",
+    "bom_id": "QLD_TP014",
+    "name": "Leggatt Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp015",
+    "bom_id": "QLD_TP015",
+    "name": "Lihou Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp016",
+    "bom_id": "QLD_TP016",
+    "name": "Lizard Island (QLD)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp017",
+    "bom_id": "QLD_TP017",
+    "name": "Lucinda (Offshore)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp018",
+    "bom_id": "QLD_TP018",
+    "name": "Mackay Outer Harbour",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp019",
+    "bom_id": "QLD_TP019",
+    "name": "Mooloolaba",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp020",
+    "bom_id": "QLD_TP020",
+    "name": "Mourilyan Harbour",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp021",
+    "bom_id": "QLD_TP021",
+    "name": "Noosa Head",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp022",
+    "bom_id": "QLD_TP022",
+    "name": "Port Alma",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp023",
+    "bom_id": "QLD_TP023",
+    "name": "Port Douglas",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp024",
+    "bom_id": "QLD_TP024",
+    "name": "Rosslyn Bay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp025",
+    "bom_id": "QLD_TP025",
+    "name": "Shute Harbour",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp026",
+    "bom_id": "QLD_TP026",
+    "name": "Booby Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp027",
+    "bom_id": "QLD_TP027",
+    "name": "Goods Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp028",
+    "bom_id": "QLD_TP028",
+    "name": "Ince Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp029",
+    "bom_id": "QLD_TP029",
+    "name": "Nardana Patches",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp030",
+    "bom_id": "QLD_TP030",
+    "name": "Thursday Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp031",
+    "bom_id": "QLD_TP031",
+    "name": "Turtle Head",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp032",
+    "bom_id": "QLD_TP032",
+    "name": "Twin Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp033",
+    "bom_id": "QLD_TP033",
+    "name": "Townsville",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp034",
+    "bom_id": "QLD_TP034",
+    "name": "Urangan",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp035",
+    "bom_id": "QLD_TP035",
+    "name": "Waddy Point (K'gari)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp036",
+    "bom_id": "QLD_TP036",
+    "name": "Weipa (Humbug Point)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp037",
+    "bom_id": "QLD_TP037",
+    "name": "Albino Rock",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp038",
+    "bom_id": "QLD_TP038",
+    "name": "Archer River",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp039",
+    "bom_id": "QLD_TP039",
+    "name": "Beaver Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp040",
+    "bom_id": "QLD_TP040",
+    "name": "Bell Cay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp045",
+    "bom_id": "QLD_TP045",
+    "name": "Bountiful Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp046",
+    "bom_id": "QLD_TP046",
+    "name": "Amrun (Boyd Point)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp047",
+    "bom_id": "QLD_TP047",
+    "name": "Britomart Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp050",
+    "bom_id": "QLD_TP050",
+    "name": "Cape Melville",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp051",
+    "bom_id": "QLD_TP051",
+    "name": "Cato Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp052",
+    "bom_id": "QLD_TP052",
+    "name": "Chapman Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp053",
+    "bom_id": "QLD_TP053",
+    "name": "Christmas Creek",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp054",
+    "bom_id": "QLD_TP054",
+    "name": "Cooktown",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp055",
+    "bom_id": "QLD_TP055",
+    "name": "Crab Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp056",
+    "bom_id": "QLD_TP056",
+    "name": "Creal Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp057",
+    "bom_id": "QLD_TP057",
+    "name": "Cruiser Passage",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp058",
+    "bom_id": "QLD_TP058",
+    "name": "Cullen Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp062",
+    "bom_id": "QLD_TP062",
+    "name": "Dunk Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp065",
+    "bom_id": "QLD_TP065",
+    "name": "Endeavour River North",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp066",
+    "bom_id": "QLD_TP066",
+    "name": "Euston Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp067",
+    "bom_id": "QLD_TP067",
+    "name": "Fife Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp068",
+    "bom_id": "QLD_TP068",
+    "name": "Fitzroy Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp069",
+    "bom_id": "QLD_TP069",
+    "name": "Flinders Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp070",
+    "bom_id": "QLD_TP070",
+    "name": "Gannet Cay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp071",
+    "bom_id": "QLD_TP071",
+    "name": "Gatcombe Head",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp073",
+    "bom_id": "QLD_TP073",
+    "name": "Green Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp074",
+    "bom_id": "QLD_TP074",
+    "name": "Harvey Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp075",
+    "bom_id": "QLD_TP075",
+    "name": "Heron Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp076",
+    "bom_id": "QLD_TP076",
+    "name": "Hicks Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp077",
+    "bom_id": "QLD_TP077",
+    "name": "High Peak Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp080",
+    "bom_id": "QLD_TP080",
+    "name": "Kubin (Moa Island)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp082",
+    "bom_id": "QLD_TP082",
+    "name": "Mcewin Islet",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp083",
+    "bom_id": "QLD_TP083",
+    "name": "Michaelmas Cay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp084",
+    "bom_id": "QLD_TP084",
+    "name": "Mornington Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp085",
+    "bom_id": "QLD_TP085",
+    "name": "Morris Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp086",
+    "bom_id": "QLD_TP086",
+    "name": "Nassau River Offshore",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp087",
+    "bom_id": "QLD_TP087",
+    "name": "Night Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp088",
+    "bom_id": "QLD_TP088",
+    "name": "North Barnard Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp092",
+    "bom_id": "QLD_TP092",
+    "name": "Pennefather River",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp093",
+    "bom_id": "QLD_TP093",
+    "name": "Penrith Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp094",
+    "bom_id": "QLD_TP094",
+    "name": "Pipon Islands",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp095",
+    "bom_id": "QLD_TP095",
+    "name": "Pith Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp097",
+    "bom_id": "QLD_TP097",
+    "name": "Raine Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp098",
+    "bom_id": "QLD_TP098",
+    "name": "Red Island Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp099",
+    "bom_id": "QLD_TP099",
+    "name": "QLD_TP099",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp100",
+    "bom_id": "QLD_TP100",
+    "name": "Ribbon Reef No.9",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp101",
+    "bom_id": "QLD_TP101",
+    "name": "Rocky Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp102",
+    "bom_id": "QLD_TP102",
+    "name": "Russell Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp104",
+    "bom_id": "QLD_TP104",
+    "name": "Serpentine Creek",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp106",
+    "bom_id": "QLD_TP106",
+    "name": "Sharp Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp108",
+    "bom_id": "QLD_TP108",
+    "name": "Snapper Rocks",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp110",
+    "bom_id": "QLD_TP110",
+    "name": "South Trees (Storm Surge)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp111",
+    "bom_id": "QLD_TP111",
+    "name": "Stephens Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp112",
+    "bom_id": "QLD_TP112",
+    "name": "Sweers Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp114",
+    "bom_id": "QLD_TP114",
+    "name": "Thomas Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp115",
+    "bom_id": "QLD_TP115",
+    "name": "Alert Patches",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp116",
+    "bom_id": "QLD_TP116",
+    "name": "Coconut Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp117",
+    "bom_id": "QLD_TP117",
+    "name": "East Cay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp118",
+    "bom_id": "QLD_TP118",
+    "name": "Frederick Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp120",
+    "bom_id": "QLD_TP120",
+    "name": "Papou Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp121",
+    "bom_id": "QLD_TP121",
+    "name": "Phipi Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp122",
+    "bom_id": "QLD_TP122",
+    "name": "Poll Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp123",
+    "bom_id": "QLD_TP123",
+    "name": "Yam Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp124",
+    "bom_id": "QLD_TP124",
+    "name": "Zagai Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp125",
+    "bom_id": "QLD_TP125",
+    "name": "Turtle Head Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp128",
+    "bom_id": "QLD_TP128",
+    "name": "Vrilya Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp129",
+    "bom_id": "QLD_TP129",
+    "name": "Wallaby Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp131",
+    "bom_id": "QLD_TP131",
+    "name": "Whitetip Reef Front",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp132",
+    "bom_id": "QLD_TP132",
+    "name": "Whitetip Reef Rear",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp134",
+    "bom_id": "QLD_TP134",
+    "name": "Willis Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp135",
+    "bom_id": "QLD_TP135",
+    "name": "Cardwell",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp136",
+    "bom_id": "QLD_TP136",
+    "name": "Clump Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp137",
+    "bom_id": "QLD_TP137",
+    "name": "Laguna Quays",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp138",
+    "bom_id": "QLD_TP138",
+    "name": "Brisbane Port Office",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp139",
+    "bom_id": "QLD_TP139",
+    "name": "Albert River Mouth",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp140",
+    "bom_id": "QLD_TP140",
+    "name": "Burketown",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp141",
+    "bom_id": "QLD_TP141",
+    "name": "Normanton",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp142",
+    "bom_id": "QLD_TP142",
+    "name": "West Wellesley Islands",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp143",
+    "bom_id": "QLD_TP143",
+    "name": "St Pauls (Moa Island)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp144",
+    "bom_id": "QLD_TP144",
+    "name": "Dauan Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp145",
+    "bom_id": "QLD_TP145",
+    "name": "Nerang River (Bundall)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp146",
+    "bom_id": "QLD_TP146",
+    "name": "Runaway Bay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp147",
+    "bom_id": "QLD_TP147",
+    "name": "Bribie Island, Bongaree",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp148",
+    "bom_id": "QLD_TP148",
+    "name": "Beacon M2, Moreton Bay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp149",
+    "bom_id": "QLD_TP149",
+    "name": "Tangalooma Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp150",
+    "bom_id": "QLD_TP150",
+    "name": "Caloundra Head",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp151",
+    "bom_id": "QLD_TP151",
+    "name": "Elbow Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp152",
+    "bom_id": "QLD_TP152",
+    "name": "Boonlye Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp153",
+    "bom_id": "QLD_TP153",
+    "name": "Ungowa",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp154",
+    "bom_id": "QLD_TP154",
+    "name": "Elliott Heads",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp155",
+    "bom_id": "QLD_TP155",
+    "name": "Clews Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp156",
+    "bom_id": "QLD_TP156",
+    "name": "Round Hill Head",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp157",
+    "bom_id": "QLD_TP157",
+    "name": "Lady Musgrave Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp158",
+    "bom_id": "QLD_TP158",
+    "name": "Lady Elliot Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp159",
+    "bom_id": "QLD_TP159",
+    "name": "Breaksea Spit",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp160",
+    "bom_id": "QLD_TP160",
+    "name": "One Tree Islet",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp161",
+    "bom_id": "QLD_TP161",
+    "name": "Polmaise Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp162",
+    "bom_id": "QLD_TP162",
+    "name": "Tryon Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp163",
+    "bom_id": "QLD_TP163",
+    "name": "Rock Cod Shoal",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp164",
+    "bom_id": "QLD_TP164",
+    "name": "Cape Capricorn",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp165",
+    "bom_id": "QLD_TP165",
+    "name": "Middle Island (Keppel Isles)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp166",
+    "bom_id": "QLD_TP166",
+    "name": "Port Clinton",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp167",
+    "bom_id": "QLD_TP167",
+    "name": "Peaked Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp168",
+    "bom_id": "QLD_TP168",
+    "name": "Karamea Bank",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp169",
+    "bom_id": "QLD_TP169",
+    "name": "Johnson Patch - NW",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp170",
+    "bom_id": "QLD_TP170",
+    "name": "Mumford Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp171",
+    "bom_id": "QLD_TP171",
+    "name": "Osborn Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp172",
+    "bom_id": "QLD_TP172",
+    "name": "Marquis Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp173",
+    "bom_id": "QLD_TP173",
+    "name": "Reef Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp174",
+    "bom_id": "QLD_TP174",
+    "name": "Elusive Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp175",
+    "bom_id": "QLD_TP175",
+    "name": "Prudhoe Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp176",
+    "bom_id": "QLD_TP176",
+    "name": "Middle Island (Percy Isles)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp177",
+    "bom_id": "QLD_TP177",
+    "name": "Carlisle Island (Off)",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp178",
+    "bom_id": "QLD_TP178",
+    "name": "St. Bees Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp179",
+    "bom_id": "QLD_TP179",
+    "name": "Scawfell Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp180",
+    "bom_id": "QLD_TP180",
+    "name": "Credlin Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp181",
+    "bom_id": "QLD_TP181",
+    "name": "East Repulse Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp182",
+    "bom_id": "QLD_TP182",
+    "name": "Blacksmith Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp183",
+    "bom_id": "QLD_TP183",
+    "name": "Tideway Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp184",
+    "bom_id": "QLD_TP184",
+    "name": "Hayman Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp185",
+    "bom_id": "QLD_TP185",
+    "name": "Square Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp186",
+    "bom_id": "QLD_TP186",
+    "name": "Double Bay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp187",
+    "bom_id": "QLD_TP187",
+    "name": "Molle Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp188",
+    "bom_id": "QLD_TP188",
+    "name": "Cid Harbour",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp189",
+    "bom_id": "QLD_TP189",
+    "name": "Hook Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp190",
+    "bom_id": "QLD_TP190",
+    "name": "Border Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp191",
+    "bom_id": "QLD_TP191",
+    "name": "Haslewood Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp192",
+    "bom_id": "QLD_TP192",
+    "name": "Stanley Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp193",
+    "bom_id": "QLD_TP193",
+    "name": "Kennedy Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp194",
+    "bom_id": "QLD_TP194",
+    "name": "Unnamed Reef No. 2",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp195",
+    "bom_id": "QLD_TP195",
+    "name": "Jaguar Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp196",
+    "bom_id": "QLD_TP196",
+    "name": "Shrimp Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp197",
+    "bom_id": "QLD_TP197",
+    "name": "John Brewer Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp198",
+    "bom_id": "QLD_TP198",
+    "name": "Dip Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp199",
+    "bom_id": "QLD_TP199",
+    "name": "Barnett Patches",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp200",
+    "bom_id": "QLD_TP200",
+    "name": "Goold Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp201",
+    "bom_id": "QLD_TP201",
+    "name": "Unnamed Reef No. 1",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp202",
+    "bom_id": "QLD_TP202",
+    "name": "Cowley Beach",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp203",
+    "bom_id": "QLD_TP203",
+    "name": "Eddy Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp204",
+    "bom_id": "QLD_TP204",
+    "name": "Peart Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp205",
+    "bom_id": "QLD_TP205",
+    "name": "Nathan Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp206",
+    "bom_id": "QLD_TP206",
+    "name": "Sudbury Cay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp207",
+    "bom_id": "QLD_TP207",
+    "name": "High Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp208",
+    "bom_id": "QLD_TP208",
+    "name": "Swallows Landing",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp209",
+    "bom_id": "QLD_TP209",
+    "name": "Palm Cove",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp210",
+    "bom_id": "QLD_TP210",
+    "name": "Yorkeys Knob",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp211",
+    "bom_id": "QLD_TP211",
+    "name": "East Hope Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp212",
+    "bom_id": "QLD_TP212",
+    "name": "Bailay Creek",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp213",
+    "bom_id": "QLD_TP213",
+    "name": "Low Islets",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp214",
+    "bom_id": "QLD_TP214",
+    "name": "Holmes Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp215",
+    "bom_id": "QLD_TP215",
+    "name": "Low Wooded Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp216",
+    "bom_id": "QLD_TP216",
+    "name": "Cape Bedford",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp217",
+    "bom_id": "QLD_TP217",
+    "name": "Normanby River",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp218",
+    "bom_id": "QLD_TP218",
+    "name": "Carter Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp219",
+    "bom_id": "QLD_TP219",
+    "name": "East Petherbridge Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp220",
+    "bom_id": "QLD_TP220",
+    "name": "North Direction Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp221",
+    "bom_id": "QLD_TP221",
+    "name": "Cape Flattery",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp222",
+    "bom_id": "QLD_TP222",
+    "name": "Munro Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp223",
+    "bom_id": "QLD_TP223",
+    "name": "Eden Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp224",
+    "bom_id": "QLD_TP224",
+    "name": "Stanley Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp226",
+    "bom_id": "QLD_TP226",
+    "name": "1st 3 Mile Opening",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp227",
+    "bom_id": "QLD_TP227",
+    "name": "Creech Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp228",
+    "bom_id": "QLD_TP228",
+    "name": "Unnamed Reef No. 3",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp229",
+    "bom_id": "QLD_TP229",
+    "name": "Ham Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp230",
+    "bom_id": "QLD_TP230",
+    "name": "Jubilee Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp232",
+    "bom_id": "QLD_TP232",
+    "name": "Sir Charles Hardy Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp234",
+    "bom_id": "QLD_TP234",
+    "name": "Kay Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp235",
+    "bom_id": "QLD_TP235",
+    "name": "Mcsweeny Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp236",
+    "bom_id": "QLD_TP236",
+    "name": "Collette Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp237",
+    "bom_id": "QLD_TP237",
+    "name": "Shadwell Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp238",
+    "bom_id": "QLD_TP238",
+    "name": "Hannibal Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp239",
+    "bom_id": "QLD_TP239",
+    "name": "Round Point",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp240",
+    "bom_id": "QLD_TP240",
+    "name": "Cape Grenville",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp241",
+    "bom_id": "QLD_TP241",
+    "name": "Maclennan Cay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp242",
+    "bom_id": "QLD_TP242",
+    "name": "Wyborn Reef Light",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp243",
+    "bom_id": "QLD_TP243",
+    "name": "Tetley Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp244",
+    "bom_id": "QLD_TP244",
+    "name": "Triangle Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp245",
+    "bom_id": "QLD_TP245",
+    "name": "Possession Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp246",
+    "bom_id": "QLD_TP246",
+    "name": "Alpha Rock",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp247",
+    "bom_id": "QLD_TP247",
+    "name": "Red Wallis Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp248",
+    "bom_id": "QLD_TP248",
+    "name": "Packe Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp249",
+    "bom_id": "QLD_TP249",
+    "name": "Harrington Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp250",
+    "bom_id": "QLD_TP250",
+    "name": "Herald Camp",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp251",
+    "bom_id": "QLD_TP251",
+    "name": "Bampfield Head",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp252",
+    "bom_id": "QLD_TP252",
+    "name": "White Rocks Area",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp253",
+    "bom_id": "QLD_TP253",
+    "name": "Carpentaria",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp254",
+    "bom_id": "QLD_TP254",
+    "name": "Round Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp255",
+    "bom_id": "QLD_TP255",
+    "name": "Badu Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp256",
+    "bom_id": "QLD_TP256",
+    "name": "Kirkcaldie Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp257",
+    "bom_id": "QLD_TP257",
+    "name": "Suarji Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp258",
+    "bom_id": "QLD_TP258",
+    "name": "Sue Islet",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp259",
+    "bom_id": "QLD_TP259",
+    "name": "Hawkesbury Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp260",
+    "bom_id": "QLD_TP260",
+    "name": "Dugong Islet",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp261",
+    "bom_id": "QLD_TP261",
+    "name": "Half Way Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp262",
+    "bom_id": "QLD_TP262",
+    "name": "Mabuiag Island Barge",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp265",
+    "bom_id": "QLD_TP265",
+    "name": "Saibai Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp266",
+    "bom_id": "QLD_TP266",
+    "name": "Yorke Island Barge",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp267",
+    "bom_id": "QLD_TP267",
+    "name": "Rennel Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp268",
+    "bom_id": "QLD_TP268",
+    "name": "Ashmore Reef North",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp269",
+    "bom_id": "QLD_TP269",
+    "name": "Aureed Island",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp270",
+    "bom_id": "QLD_TP270",
+    "name": "Kai-Maituine Reef - Northeast",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp271",
+    "bom_id": "QLD_TP271",
+    "name": "Dungeness Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp272",
+    "bom_id": "QLD_TP272",
+    "name": "Merrie England Shoals",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp273",
+    "bom_id": "QLD_TP273",
+    "name": "Mutacomal Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp274",
+    "bom_id": "QLD_TP274",
+    "name": "Darnley Island Barge",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp275",
+    "bom_id": "QLD_TP275",
+    "name": "Osprey Reef - West",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp276",
+    "bom_id": "QLD_TP276",
+    "name": "Meer Island Barge",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp277",
+    "bom_id": "QLD_TP277",
+    "name": "Bramble Cay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp278",
+    "bom_id": "QLD_TP278",
+    "name": "Unnamed Cay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp279",
+    "bom_id": "QLD_TP279",
+    "name": "Pearce Cay",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp280",
+    "bom_id": "QLD_TP280",
+    "name": "Saumarez Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp281",
+    "bom_id": "QLD_TP281",
+    "name": "Marion Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp282",
+    "bom_id": "QLD_TP282",
+    "name": "Mellish Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp283",
+    "bom_id": "QLD_TP283",
+    "name": "East Diamond Islet",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp284",
+    "bom_id": "QLD_TP284",
+    "name": "Magdelaine Cays",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "qld_tp285",
+    "bom_id": "QLD_TP285",
+    "name": "Elizabeth Reef",
+    "state": "QLD",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp001",
+    "bom_id": "SA_TP001",
+    "name": "Port Adelaide (Outer Harbor)",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp002",
+    "bom_id": "SA_TP002",
+    "name": "Port Giles",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp003",
+    "bom_id": "SA_TP003",
+    "name": "Port Lincoln",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp004",
+    "bom_id": "SA_TP004",
+    "name": "Port Pirie",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp005",
+    "bom_id": "SA_TP005",
+    "name": "Thevenard",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp006",
+    "bom_id": "SA_TP006",
+    "name": "Victor Harbor",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp007",
+    "bom_id": "SA_TP007",
+    "name": "Wallaroo",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp008",
+    "bom_id": "SA_TP008",
+    "name": "Whyalla",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp009",
+    "bom_id": "SA_TP009",
+    "name": "Arno Bay",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp010",
+    "bom_id": "SA_TP010",
+    "name": "Beachport",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp011",
+    "bom_id": "SA_TP011",
+    "name": "Cape Elizabeth",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp012",
+    "bom_id": "SA_TP012",
+    "name": "Cape Jaffa",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp013",
+    "bom_id": "SA_TP013",
+    "name": "Cape Jervis",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp014",
+    "bom_id": "SA_TP014",
+    "name": "Elliston",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp016",
+    "bom_id": "SA_TP016",
+    "name": "Franklin Harbor",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp017",
+    "bom_id": "SA_TP017",
+    "name": "Glenelg",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp018",
+    "bom_id": "SA_TP018",
+    "name": "Greenly Island",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp020",
+    "bom_id": "SA_TP020",
+    "name": "Penneshaw",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp023",
+    "bom_id": "SA_TP023",
+    "name": "Pearson Island",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp024",
+    "bom_id": "SA_TP024",
+    "name": "Point Turton",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp025",
+    "bom_id": "SA_TP025",
+    "name": "Port Augusta",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp026",
+    "bom_id": "SA_TP026",
+    "name": "Port Bonython",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp027",
+    "bom_id": "SA_TP027",
+    "name": "Port Broughton",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp028",
+    "bom_id": "SA_TP028",
+    "name": "Port Eyre (Fowlers Bay)",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp029",
+    "bom_id": "SA_TP029",
+    "name": "Port Macdonnell",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp030",
+    "bom_id": "SA_TP030",
+    "name": "Port Neill",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp031",
+    "bom_id": "SA_TP031",
+    "name": "Port Noarlunga",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp032",
+    "bom_id": "SA_TP032",
+    "name": "Port Stanvac",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp033",
+    "bom_id": "SA_TP033",
+    "name": "Port Victoria",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp034",
+    "bom_id": "SA_TP034",
+    "name": "Red Cliff Point (Beacon 5)",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp035",
+    "bom_id": "SA_TP035",
+    "name": "Robe",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp036",
+    "bom_id": "SA_TP036",
+    "name": "St Francis Island",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp037",
+    "bom_id": "SA_TP037",
+    "name": "Second Valley",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp038",
+    "bom_id": "SA_TP038",
+    "name": "Shelf Edge Mooring",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp039",
+    "bom_id": "SA_TP039",
+    "name": "Taylors Landing",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp040",
+    "bom_id": "SA_TP040",
+    "name": "Tiparra Reef Light",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp041",
+    "bom_id": "SA_TP041",
+    "name": "Vivonne Bay",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp042",
+    "bom_id": "SA_TP042",
+    "name": "Wedge Island Mooring",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp043",
+    "bom_id": "SA_TP043",
+    "name": "Whalers Bay",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp046",
+    "bom_id": "SA_TP046",
+    "name": "Coffin Bay Entrance Beacon",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp047",
+    "bom_id": "SA_TP047",
+    "name": "Coffin Bay Jetty",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp048",
+    "bom_id": "SA_TP048",
+    "name": "Stenhouse Bay",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp049",
+    "bom_id": "SA_TP049",
+    "name": "Franklin Harbor Entrance Beacon",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp050",
+    "bom_id": "SA_TP050",
+    "name": "Cape Hardy",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp051",
+    "bom_id": "SA_TP051",
+    "name": "Tumby Bay",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp052",
+    "bom_id": "SA_TP052",
+    "name": "Western Shoal Beacon",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp053",
+    "bom_id": "SA_TP053",
+    "name": "Port Vincent",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp054",
+    "bom_id": "SA_TP054",
+    "name": "Ardrossan",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp055",
+    "bom_id": "SA_TP055",
+    "name": "Kingston",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp056",
+    "bom_id": "SA_TP056",
+    "name": "Brighton",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp057",
+    "bom_id": "SA_TP057",
+    "name": "SA_TP057",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp058",
+    "bom_id": "SA_TP058",
+    "name": "Althorpe Island",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp059",
+    "bom_id": "SA_TP059",
+    "name": "Pondalowie Bay",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp060",
+    "bom_id": "SA_TP060",
+    "name": "Reevesby Island",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp061",
+    "bom_id": "SA_TP061",
+    "name": "Blanche Port (Streaky Bay)",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp062",
+    "bom_id": "SA_TP062",
+    "name": "Kingscote",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp063",
+    "bom_id": "SA_TP063",
+    "name": "Port Kenny",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp064",
+    "bom_id": "SA_TP064",
+    "name": "Venus Bay",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp065",
+    "bom_id": "SA_TP065",
+    "name": "Cape Rabelais (off)",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "sa_tp067",
+    "bom_id": "SA_TP067",
+    "name": "American River",
+    "state": "SA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp001",
+    "bom_id": "TAS_TP001",
+    "name": "Burnie",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp002",
+    "bom_id": "TAS_TP002",
+    "name": "Darlington Jetty",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp003",
+    "bom_id": "TAS_TP003",
+    "name": "Hobart",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp004",
+    "bom_id": "TAS_TP004",
+    "name": "Low Head",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp005",
+    "bom_id": "TAS_TP005",
+    "name": "Devonport",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp006",
+    "bom_id": "TAS_TP006",
+    "name": "Southport Jetty",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp007",
+    "bom_id": "TAS_TP007",
+    "name": "Spring Bay",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp008",
+    "bom_id": "TAS_TP008",
+    "name": "Stanley",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp009",
+    "bom_id": "TAS_TP009",
+    "name": "Casey",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp010",
+    "bom_id": "TAS_TP010",
+    "name": "Commonwealth Bay",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp011",
+    "bom_id": "TAS_TP011",
+    "name": "Davis",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp012",
+    "bom_id": "TAS_TP012",
+    "name": "Mawson",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp013",
+    "bom_id": "TAS_TP013",
+    "name": "Zhong Shan",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp014",
+    "bom_id": "TAS_TP014",
+    "name": "Macquarie Island",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp015",
+    "bom_id": "TAS_TP015",
+    "name": "Heard Island",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp016",
+    "bom_id": "TAS_TP016",
+    "name": "Bell Bay",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp017",
+    "bom_id": "TAS_TP017",
+    "name": "Bramble Cove",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp018",
+    "bom_id": "TAS_TP018",
+    "name": "Granville Harbour",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp019",
+    "bom_id": "TAS_TP019",
+    "name": "Launceston",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp022",
+    "bom_id": "TAS_TP022",
+    "name": "Port Huon",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp023",
+    "bom_id": "TAS_TP023",
+    "name": "King Island (Grassy)",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp024",
+    "bom_id": "TAS_TP024",
+    "name": "Stack Island",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp025",
+    "bom_id": "TAS_TP025",
+    "name": "Pirates Bay",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp026",
+    "bom_id": "TAS_TP026",
+    "name": "Parsons Bay",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp027",
+    "bom_id": "TAS_TP027",
+    "name": "Pieman River",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp028",
+    "bom_id": "TAS_TP028",
+    "name": "Bicheno",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp029",
+    "bom_id": "TAS_TP029",
+    "name": "Seal Bay",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp030",
+    "bom_id": "TAS_TP030",
+    "name": "Bass Pyramid",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp031",
+    "bom_id": "TAS_TP031",
+    "name": "Big River Cove",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp032",
+    "bom_id": "TAS_TP032",
+    "name": "Lady Barron Harbour",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp033",
+    "bom_id": "TAS_TP033",
+    "name": "Swan Island",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp034",
+    "bom_id": "TAS_TP034",
+    "name": "Eddystone Point",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp035",
+    "bom_id": "TAS_TP035",
+    "name": "St Helens",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp036",
+    "bom_id": "TAS_TP036",
+    "name": "Falmouth",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp037",
+    "bom_id": "TAS_TP037",
+    "name": "Coles Bay",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp038",
+    "bom_id": "TAS_TP038",
+    "name": "Impression Bay",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp039",
+    "bom_id": "TAS_TP039",
+    "name": "Recherche Bay",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp040",
+    "bom_id": "TAS_TP040",
+    "name": "Maatsuyker Island",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp041",
+    "bom_id": "TAS_TP041",
+    "name": "Cape Sorell (Off)",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp042",
+    "bom_id": "TAS_TP042",
+    "name": "Three Hummock Island",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp043",
+    "bom_id": "TAS_TP043",
+    "name": "East Moncoeur Island",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp044",
+    "bom_id": "TAS_TP044",
+    "name": "Curtis Island",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp045",
+    "bom_id": "TAS_TP045",
+    "name": "Hogan Island",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "tas_tp046",
+    "bom_id": "TAS_TP046",
+    "name": "Garden Cove",
+    "state": "TAS",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp001",
+    "bom_id": "VIC_TP001",
+    "name": "Lakes Entrance",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp002",
+    "bom_id": "VIC_TP002",
+    "name": "Lorne",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp003",
+    "bom_id": "VIC_TP003",
+    "name": "Melbourne (Williamstown)",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp004",
+    "bom_id": "VIC_TP004",
+    "name": "Point Richards (Corio Bay)",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp005",
+    "bom_id": "VIC_TP005",
+    "name": "Geelong",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp006",
+    "bom_id": "VIC_TP006",
+    "name": "Hovell Pile",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp007",
+    "bom_id": "VIC_TP007",
+    "name": "Queenscliff",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp008",
+    "bom_id": "VIC_TP008",
+    "name": "West Channel Pile",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp009",
+    "bom_id": "VIC_TP009",
+    "name": "Point Lonsdale",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp010",
+    "bom_id": "VIC_TP010",
+    "name": "Port Welshpool Pier",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp011",
+    "bom_id": "VIC_TP011",
+    "name": "Portland",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp012",
+    "bom_id": "VIC_TP012",
+    "name": "Rabbit Island",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp013",
+    "bom_id": "VIC_TP013",
+    "name": "Western Port (Stony Point)",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp014",
+    "bom_id": "VIC_TP014",
+    "name": "Altona",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp015",
+    "bom_id": "VIC_TP015",
+    "name": "Barracouta Platform",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp016",
+    "bom_id": "VIC_TP016",
+    "name": "Barwon Heads",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp017",
+    "bom_id": "VIC_TP017",
+    "name": "Bouchier Channel",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp018",
+    "bom_id": "VIC_TP018",
+    "name": "Cowes Jetty",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp019",
+    "bom_id": "VIC_TP019",
+    "name": "Elizabeth Island",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp020",
+    "bom_id": "VIC_TP020",
+    "name": "Flinders Jetty",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp022",
+    "bom_id": "VIC_TP022",
+    "name": "Mornington",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp025",
+    "bom_id": "VIC_TP025",
+    "name": "Port Fairy",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp026",
+    "bom_id": "VIC_TP026",
+    "name": "Rosebud Jetty",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp027",
+    "bom_id": "VIC_TP027",
+    "name": "St Kilda",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp028",
+    "bom_id": "VIC_TP028",
+    "name": "St Leonards",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp029",
+    "bom_id": "VIC_TP029",
+    "name": "San Remo",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp030",
+    "bom_id": "VIC_TP030",
+    "name": "Sandringham",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp031",
+    "bom_id": "VIC_TP031",
+    "name": "Western Port (Sandy Point)",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp032",
+    "bom_id": "VIC_TP032",
+    "name": "South Channel",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp033",
+    "bom_id": "VIC_TP033",
+    "name": "Tooradin",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp034",
+    "bom_id": "VIC_TP034",
+    "name": "Werribee",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp035",
+    "bom_id": "VIC_TP035",
+    "name": "VIC_TP035",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp036",
+    "bom_id": "VIC_TP036",
+    "name": "VIC_TP036",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp037",
+    "bom_id": "VIC_TP037",
+    "name": "Wilson Spit",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp038",
+    "bom_id": "VIC_TP038",
+    "name": "Apollo Bay",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp039",
+    "bom_id": "VIC_TP039",
+    "name": "Gabo Island",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp040",
+    "bom_id": "VIC_TP040",
+    "name": "Port Campbell",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp041",
+    "bom_id": "VIC_TP041",
+    "name": "Point Hicks",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp044",
+    "bom_id": "VIC_TP044",
+    "name": "Waratah Bay",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "vic_tp047",
+    "bom_id": "VIC_TP047",
+    "name": "Warrnambool",
+    "state": "VIC",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp001",
+    "bom_id": "WA_TP001",
+    "name": "Albany",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp002",
+    "bom_id": "WA_TP002",
+    "name": "Barrow Island (Tanker Mooring)",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp003",
+    "bom_id": "WA_TP003",
+    "name": "Barrow Island (Wapet Landing)",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp004",
+    "bom_id": "WA_TP004",
+    "name": "Broome",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp005",
+    "bom_id": "WA_TP005",
+    "name": "Bunbury",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp006",
+    "bom_id": "WA_TP006",
+    "name": "Cape Cuvier",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp007",
+    "bom_id": "WA_TP007",
+    "name": "Cape Voltaire (Krait Bay)",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp008",
+    "bom_id": "WA_TP008",
+    "name": "Carnarvon",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp009",
+    "bom_id": "WA_TP009",
+    "name": "Flying Fish Cove",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp010",
+    "bom_id": "WA_TP010",
+    "name": "Home Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp011",
+    "bom_id": "WA_TP011",
+    "name": "Dampier (King Bay)",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp012",
+    "bom_id": "WA_TP012",
+    "name": "Denham",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp013",
+    "bom_id": "WA_TP013",
+    "name": "Esperance",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp014",
+    "bom_id": "WA_TP014",
+    "name": "Exmouth",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp015",
+    "bom_id": "WA_TP015",
+    "name": "Fremantle",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp016",
+    "bom_id": "WA_TP016",
+    "name": "Geraldton",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp017",
+    "bom_id": "WA_TP017",
+    "name": "Hillarys",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp018",
+    "bom_id": "WA_TP018",
+    "name": "Onslow (Beadon Creek)",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp019",
+    "bom_id": "WA_TP019",
+    "name": "Point Murat",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp020",
+    "bom_id": "WA_TP020",
+    "name": "Port Hedland",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp021",
+    "bom_id": "WA_TP021",
+    "name": "Port Walcott (Cape Lambert)",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp022",
+    "bom_id": "WA_TP022",
+    "name": "Thevenard Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp023",
+    "bom_id": "WA_TP023",
+    "name": "Wyndham",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp024",
+    "bom_id": "WA_TP024",
+    "name": "Yampi Sound (Koolan Island)",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp025",
+    "bom_id": "WA_TP025",
+    "name": "Ashburton North",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp026",
+    "bom_id": "WA_TP026",
+    "name": "Ashmore Reef",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp027",
+    "bom_id": "WA_TP027",
+    "name": "Badjirrajirra",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp028",
+    "bom_id": "WA_TP028",
+    "name": "Bedout Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp029",
+    "bom_id": "WA_TP029",
+    "name": "WA_TP029",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp030",
+    "bom_id": "WA_TP030",
+    "name": "Cape Baskerville",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp031",
+    "bom_id": "WA_TP031",
+    "name": "Cape Boileau",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp032",
+    "bom_id": "WA_TP032",
+    "name": "Cape Domett",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp035",
+    "bom_id": "WA_TP035",
+    "name": "Cape Legendre",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp039",
+    "bom_id": "WA_TP039",
+    "name": "West Jetty",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp040",
+    "bom_id": "WA_TP040",
+    "name": "Cosy Corner",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp042",
+    "bom_id": "WA_TP042",
+    "name": "Degerando Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp043",
+    "bom_id": "WA_TP043",
+    "name": "Derby",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp044",
+    "bom_id": "WA_TP044",
+    "name": "Dillon Shoal",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp045",
+    "bom_id": "WA_TP045",
+    "name": "Eucla",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp046",
+    "bom_id": "WA_TP046",
+    "name": "Fairway Beacon",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp047",
+    "bom_id": "WA_TP047",
+    "name": "Hamelin Pool",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp048",
+    "bom_id": "WA_TP048",
+    "name": "Hauy Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp049",
+    "bom_id": "WA_TP049",
+    "name": "WA_TP049",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp050",
+    "bom_id": "WA_TP050",
+    "name": "Lacrosse Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp051",
+    "bom_id": "WA_TP051",
+    "name": "Lesueur Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp052",
+    "bom_id": "WA_TP052",
+    "name": "Lizard Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp054",
+    "bom_id": "WA_TP054",
+    "name": "Maret Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp055",
+    "bom_id": "WA_TP055",
+    "name": "Mawby Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp056",
+    "bom_id": "WA_TP056",
+    "name": "Nornalup Inlet",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp057",
+    "bom_id": "WA_TP057",
+    "name": "North Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp058",
+    "bom_id": "WA_TP058",
+    "name": "North Sandy Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp059",
+    "bom_id": "WA_TP059",
+    "name": "North West Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp061",
+    "bom_id": "WA_TP061",
+    "name": "Pelican Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp062",
+    "bom_id": "WA_TP062",
+    "name": "Perth (Barrack Street Jetty)",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp063",
+    "bom_id": "WA_TP063",
+    "name": "Port Gregory",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp064",
+    "bom_id": "WA_TP064",
+    "name": "Port Usborne",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp065",
+    "bom_id": "WA_TP065",
+    "name": "Port Warrender",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp066",
+    "bom_id": "WA_TP066",
+    "name": "Reveley Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp067",
+    "bom_id": "WA_TP067",
+    "name": "Rocky Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp068",
+    "bom_id": "WA_TP068",
+    "name": "Shark Bay",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp069",
+    "bom_id": "WA_TP069",
+    "name": "Sholl Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp070",
+    "bom_id": "WA_TP070",
+    "name": "Cape Hamelin",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp071",
+    "bom_id": "WA_TP071",
+    "name": "Steamboat Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp072",
+    "bom_id": "WA_TP072",
+    "name": "Sunday Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp073",
+    "bom_id": "WA_TP073",
+    "name": "Twilight Cove",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp074",
+    "bom_id": "WA_TP074",
+    "name": "Valentine Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp075",
+    "bom_id": "WA_TP075",
+    "name": "Van Cloon Shoal",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp076",
+    "bom_id": "WA_TP076",
+    "name": "Warnbro Sound",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp077",
+    "bom_id": "WA_TP077",
+    "name": "Windy Harbour",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp078",
+    "bom_id": "WA_TP078",
+    "name": "Withnell Bay",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp079",
+    "bom_id": "WA_TP079",
+    "name": "Echo Shoal",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp080",
+    "bom_id": "WA_TP080",
+    "name": "Napier Broome Bay",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp081",
+    "bom_id": "WA_TP081",
+    "name": "Jar Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp082",
+    "bom_id": "WA_TP082",
+    "name": "Busselton",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp083",
+    "bom_id": "WA_TP083",
+    "name": "Daw Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp084",
+    "bom_id": "WA_TP084",
+    "name": "Goose Island Bay",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp085",
+    "bom_id": "WA_TP085",
+    "name": "Mary Ann Haven",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp086",
+    "bom_id": "WA_TP086",
+    "name": "Bremer Bay",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp087",
+    "bom_id": "WA_TP087",
+    "name": "Wilson Head",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp088",
+    "bom_id": "WA_TP088",
+    "name": "WA_TP088",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp089",
+    "bom_id": "WA_TP089",
+    "name": "Cowaramup",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp090",
+    "bom_id": "WA_TP090",
+    "name": "Bunker Bay",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp091",
+    "bom_id": "WA_TP091",
+    "name": "Mandurah",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp092",
+    "bom_id": "WA_TP092",
+    "name": "Rottnest Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp093",
+    "bom_id": "WA_TP093",
+    "name": "Two Rocks Marina",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp094",
+    "bom_id": "WA_TP094",
+    "name": "Lancelin",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp095",
+    "bom_id": "WA_TP095",
+    "name": "Cervantes",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp096",
+    "bom_id": "WA_TP096",
+    "name": "Port Denison",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp097",
+    "bom_id": "WA_TP097",
+    "name": "Leeman",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp098",
+    "bom_id": "WA_TP098",
+    "name": "Pelsaert Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp099",
+    "bom_id": "WA_TP099",
+    "name": "Easter Group",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp100",
+    "bom_id": "WA_TP100",
+    "name": "Kalbarri",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp101",
+    "bom_id": "WA_TP101",
+    "name": "Withnell Point",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp102",
+    "bom_id": "WA_TP102",
+    "name": "Shark Bay (Inr Bn)",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp103",
+    "bom_id": "WA_TP103",
+    "name": "Useless Loop",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp104",
+    "bom_id": "WA_TP104",
+    "name": "Monkey Mia",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp105",
+    "bom_id": "WA_TP105",
+    "name": "Coral Bay",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp106",
+    "bom_id": "WA_TP106",
+    "name": "Norwegian Bay",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp107",
+    "bom_id": "WA_TP107",
+    "name": "Tantabiddi",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp108",
+    "bom_id": "WA_TP108",
+    "name": "Learmonth",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp109",
+    "bom_id": "WA_TP109",
+    "name": "Y Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp110",
+    "bom_id": "WA_TP110",
+    "name": "North Muiron Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp111",
+    "bom_id": "WA_TP111",
+    "name": "Roller",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp112",
+    "bom_id": "WA_TP112",
+    "name": "Large Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp113",
+    "bom_id": "WA_TP113",
+    "name": "Trimouille Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp114",
+    "bom_id": "WA_TP114",
+    "name": "Adolphus Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp115",
+    "bom_id": "WA_TP115",
+    "name": "Fortescue Road",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp116",
+    "bom_id": "WA_TP116",
+    "name": "Depuch Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp117",
+    "bom_id": "WA_TP117",
+    "name": "Imperieuse Reef",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp118",
+    "bom_id": "WA_TP118",
+    "name": "Mermaid Reef",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp119",
+    "bom_id": "WA_TP119",
+    "name": "Lagrange Bay",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp120",
+    "bom_id": "WA_TP120",
+    "name": "Red Bluff",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp121",
+    "bom_id": "WA_TP121",
+    "name": "Scott Reef (WA)",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp122",
+    "bom_id": "WA_TP122",
+    "name": "Karrakatta Bay",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp123",
+    "bom_id": "WA_TP123",
+    "name": "Bedford Islands",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp124",
+    "bom_id": "WA_TP124",
+    "name": "Macleay Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp125",
+    "bom_id": "WA_TP125",
+    "name": "Adele Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp126",
+    "bom_id": "WA_TP126",
+    "name": "Browse Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp127",
+    "bom_id": "WA_TP127",
+    "name": "Shale Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp128",
+    "bom_id": "WA_TP128",
+    "name": "Hall Point",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp129",
+    "bom_id": "WA_TP129",
+    "name": "White Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp130",
+    "bom_id": "WA_TP130",
+    "name": "Skua No. 4 Well",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp131",
+    "bom_id": "WA_TP131",
+    "name": "Jabiru",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp132",
+    "bom_id": "WA_TP132",
+    "name": "Baudin Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp133",
+    "bom_id": "WA_TP133",
+    "name": "Laminaria",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp134",
+    "bom_id": "WA_TP134",
+    "name": "Troughton Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp135",
+    "bom_id": "WA_TP135",
+    "name": "Cassini Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp136",
+    "bom_id": "WA_TP136",
+    "name": "West Holothuria Reef Offshore",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp137",
+    "bom_id": "WA_TP137",
+    "name": "Lynher Bank",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp138",
+    "bom_id": "WA_TP138",
+    "name": "Heywood Shoal",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp139",
+    "bom_id": "WA_TP139",
+    "name": "Pee Shoal",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp140",
+    "bom_id": "WA_TP140",
+    "name": "Carronade Island",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp141",
+    "bom_id": "WA_TP141",
+    "name": "Guy Point",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "id": "wa_tp142",
+    "bom_id": "WA_TP142",
+    "name": "Pender Point",
+    "state": "WA",
+    "latitude": 0,
+    "longitude": 0
+  }
 ]
