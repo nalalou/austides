@@ -1,0 +1,23 @@
+{
+  "name": "austides",
+  "version": "1.0.0",
+  "description": "Open-source Australian tide prediction API",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev": "vercel dev",
+    "scrape-stations": "npx tsx scripts/scrape-stations.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vercel/node": "^5.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "tsx": "^4.0.0"
+  }
+}

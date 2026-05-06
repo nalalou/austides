@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/v1/stations", "destination": "/api/v1/stations" },
+    { "source": "/v1/stations/:id/tides", "destination": "/api/v1/stations/[id]/tides" }
+  ]
+}
