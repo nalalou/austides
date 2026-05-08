@@ -12,6 +12,34 @@ describe('loadStations', () => {
     expect(stations[0]).toHaveProperty('latitude')
     expect(stations[0]).toHaveProperty('longitude')
   })
+
+  it('has usable coordinates for major stations', () => {
+    const stationIds = [
+      'nsw_tp007',
+      'qld_tp003',
+      'vic_tp003',
+      'sa_tp001',
+      'wa_tp015',
+      'tas_tp001',
+      'nt_tp001',
+    ]
+
+    for (const id of stationIds) {
+      const station = findStation(id)
+      expect(station, `${id} should exist`).not.toBeNull()
+      expect(station!.latitude, `${id} latitude should not be a placeholder`).not.toBe(0)
+      expect(station!.longitude, `${id} longitude should not be a placeholder`).not.toBe(0)
+    }
+  })
+
+  it('has usable coordinates for every station', () => {
+    const stations = loadStations()
+
+    for (const station of stations) {
+      expect(station.latitude, `${station.id} latitude should not be a placeholder`).not.toBe(0)
+      expect(station.longitude, `${station.id} longitude should not be a placeholder`).not.toBe(0)
+    }
+  })
 })
 
 describe('findStation', () => {
