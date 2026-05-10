@@ -14,6 +14,12 @@ austides returns structured JSON errors with machine-readable codes.
 
 **Fix:** Use `YYYY-MM-DD` format, e.g. `?date=2026-05-06`.
 
+## no_data_for_date
+
+**HTTP 422** — BOM has no tide predictions for the requested date. BOM only publishes predictions ~7 days into the future and does not serve historical data.
+
+**Fix:** Request a date within the next 7 days.
+
 ## upstream_unavailable
 
 **HTTP 503** — BOM's tide prediction service is down or returned unexpected data.

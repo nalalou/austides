@@ -29,6 +29,10 @@ No API key. No signup. `Cache-Control` headers included.
 
 **`GET /v1/stations/:id/tides?date=YYYY-MM-DD`** — high/low predictions for a date
 
+## Data availability
+
+Tide data comes live from BOM on each request. BOM only publishes predictions **~7 days into the future** from today's date and does not serve historical data. Requesting a past date or a date too far ahead will return a `422` error.
+
 [Quickstart](docs/quickstart.md) · [Error codes](docs/errors.md)
 
 ## Why

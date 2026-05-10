@@ -72,7 +72,7 @@ export async function fetchBomTides(bomId: string, date?: string): Promise<TideP
   if (date) {
     const filtered = predictions.filter((p) => p.time.startsWith(date))
     if (filtered.length === 0) {
-      throw new ApiError(404, 'no_data_for_date', `No tide data available for ${date}`)
+      throw new ApiError(422, 'no_data_for_date', `No tide data available for ${date}. BOM only provides predictions ~7 days into the future and does not serve past dates.`)
     }
     return filtered
   }
