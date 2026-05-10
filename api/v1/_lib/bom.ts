@@ -45,6 +45,10 @@ export async function fetchBomTides(bomId: string, date?: string): Promise<TideP
     days: '2',
   })
 
+  if (date) {
+    params.set('start_dt', date)
+  }
+
   const url = `${BOM_BASE}?${params}`
   const res = await fetch(url, {
     headers: {
@@ -66,7 +70,11 @@ export async function fetchBomTides(bomId: string, date?: string): Promise<TideP
   }
 
   if (date) {
-    return predictions.filter((p) => p.time.startsWith(date))
+    const filtered = predictions.filter((p) => p.time.startsWith(date))
+    if (filtered.length === 0) {
+      throw new ApiError(404, 'no_data_for_date', `No tide data available for ${date}`)
+    }
+    return filtered
   }
 
   return predictions
