@@ -46,6 +46,10 @@ npm install
 npm run dev
 ```
 
+## Support
+
+If austides is useful to you, consider [helping cover hosting costs](https://donate.stripe.com/4gM4gB9fgcoc9OTdWN8Zq00).
+
 ## License
 
 MIT
