@@ -37,7 +37,7 @@ Tide data comes live from BOM on each request. BOM only publishes predictions **
 
 ## Why
 
-BOM publishes tide predictions as HTML. There's no API. This is that API.
+BOM publishes tide predictions as HTML and there's no API.
 
 ## Run locally
 
